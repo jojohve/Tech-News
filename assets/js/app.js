@@ -45,18 +45,18 @@ async function loadFile() {
 
 function displayNews(news) {
     let newsDetailDiv = document.createElement("div");
-    newsDetailDiv.classList.add("news-detail");
+    newsDetailDiv.classList.add("newsDetail");
 
     let title = document.createElement("h2")
     title.textContent = news.title;
 
     let link = document.createElement("a");
     link.href = news.url;
-    link.textContent = "Link alla notizia";
+    link.textContent = "Link to the news";
 
     let date = document.createElement("label");
     let newsDate = new Date(news.time * 1000);
-    date.textContent = "Data: " + newsDate.toLocaleDateString();
+    date.textContent = "Date: " + newsDate.toLocaleDateString();
 
     newsDetailDiv.appendChild(title);
     newsDetailDiv.appendChild(link);
