@@ -7,4 +7,27 @@
 
 body {
   background-color: rgb(29, 27, 27);
+  color: rgb(238, 238, 238);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body #loadMoreButton {
+  color: rgb(238, 238, 238);
+  width: 100%;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.13);
+  font-size: larger;
+}
+body .news-detail {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.027);
+}
+body h1 {
+  margin-left: 25px;
+}
+body label {
+  padding: 10px;
+}
+body a {
+  font-size: larger;
 }/*# sourceMappingURL=style.css.map */
