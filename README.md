@@ -1,5 +1,5 @@
 # Progetto JavaScript Advanced di Joseph La Luna
-Link al progetto: https://jojohve.github.io/Tech-News/
+Link al progetto: https://jojohve.github.io/Tech-News/](https://start2impact-technews.netlify.app/
 
 1. Definizione delle funzioni fetchApi e detailFetchApi
 2. Caricamento delle prime 10 news
