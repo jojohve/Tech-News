@@ -1,2 +1,2 @@
-# Progetto-Javascript-Advanced
+# Tech News
  
